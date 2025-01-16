@@ -54,4 +54,4 @@ After building, you can run your exectuable by
 ```
 ## License
 
-This project is licensed under the WTFPL License - see the [license](./license) file for details.
+This project **except contents in /include directory** is licensed under the WTFPL License - see the [license](./license) file for details.
