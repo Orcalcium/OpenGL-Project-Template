@@ -45,13 +45,14 @@ OpenGL_Project_Template/
     
 ## Building the Project
 ### 1.build GLFW
-    ```sh
-    # in project's root directory
-    cd .\include\GLFW\build
-    cmake ..\source\glfw\
-    cmake --build . --config Release
-    cmake --install . --prefix ../install
-    ```
+ ```sh
+# in project's root directory
+cd .\include\GLFW\build
+cmake ..\source\glfw\
+cmake --build . --config Release
+cmake --install . --prefix ../install
+cd ..\..\..
+```
 #### 2.run CMake:
 ```sh
 # in project's root directory
