@@ -1,2 +1,2 @@
 this is just a placeholder for build verison of glfw.
-please refer to ReadMe for more information of building glfw.
+please refer to ReadMe for more information about building glfw.
