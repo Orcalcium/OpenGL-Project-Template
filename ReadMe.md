@@ -31,7 +31,7 @@ OpenGL_Project_Template/
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/OpenGL_Project_Template.git
+   git clone https://github.com/Orcalcium/OpenGL_Project_Template.git
    cd OpenGL_Project_Template
    ``` 
 2. **Add CMake to your system PATH:**
