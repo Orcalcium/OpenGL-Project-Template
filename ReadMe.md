@@ -6,13 +6,12 @@ This project is a template for learning OpenGL in a Windows environment. It incl
 OpenGL_Project_Template/  
 ├── code/  
 │   └── main.cpp  #*write your code here*  
-├── Debug/  
-│   └──glfw3.dll #*the dll library of GLFW*  
+├── Debug/  #*your compiled executable will be here*  
 ├── include/  
 │    ├── glad/  
 │    │    └── glad.c  
 │    │    └── glad.h  
-│    ├── GLFW/  #*this directory contains the source code of GLFW*  
+│    ├── GLFW/  #*this directory contains the source code of GLFW using git module*  
 │    └──KHR  
 ├── CMakeLists.txt  
 ├── license  
@@ -38,6 +37,7 @@ OpenGL_Project_Template/
 
     Ensure that CMake is installed and added to your system PATH. You can download CMake from [cmake.org](https://cmake.org/download/).
 3. **update submodule**
+
     ```sh
     git submodule init
     git submodule update
@@ -45,8 +45,14 @@ OpenGL_Project_Template/
     
 ## Building the Project
 ### 1.build GLFW
-
-#### 2.Create a build directory and run CMake:
+    ```sh
+    # in project's root directory
+    cd .\include\GLFW\build
+    cmake ..\source\glfw\
+    cmake --build . --config Release
+    cmake --install . --prefix ../install
+    ```
+#### 2.run CMake:
 ```sh
 # in project's root directory
 cmake .
