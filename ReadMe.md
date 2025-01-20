@@ -36,6 +36,11 @@ OpenGL_Project_Template/
 2. **Add CMake to your system PATH:**
 
     Ensure that CMake is installed and added to your system PATH. You can download CMake from [cmake.org](https://cmake.org/download/).
+    you can enter
+    ```sh
+    cmake --version
+    ```
+    in terminal to check whether cmake is correctly installed
 3. **update submodule**
 
     ```sh
