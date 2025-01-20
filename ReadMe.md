@@ -37,10 +37,16 @@ OpenGL_Project_Template/
 2. **Add CMake to your system PATH:**
 
     Ensure that CMake is installed and added to your system PATH. You can download CMake from [cmake.org](https://cmake.org/download/).
-3. **Build GLFW**
+3. **update submodule**
+    ```sh
+    git submodule init
+    git submodule update
+    ```
     
 ## Building the Project
-#### 1.Create a build directory and run CMake:
+### 1.build GLFW
+
+#### 2.Create a build directory and run CMake:
 ```sh
 # in project's root directory
 cmake .
