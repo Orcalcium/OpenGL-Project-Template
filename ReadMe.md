@@ -12,7 +12,7 @@ OpenGL_Project_Template/
 │    ├── glad/  
 │    │    └── glad.c  
 │    │    └── glad.h  
-│    ├── GLFW/  #*this directory contains the source code and built version of GLFW*  
+│    ├── GLFW/  #*this directory contains the source code of GLFW*  
 │    └──KHR  
 ├── CMakeLists.txt  
 ├── license  
@@ -24,6 +24,7 @@ OpenGL_Project_Template/
 - CMake 3.10 or higher
 - A C++ compiler (e.g., MSVC, GCC)
 - Git (optional, for cloning repositories)
+- Visual Studio or MinGW (for building GLFW)
 
 ## Setup
 
@@ -36,6 +37,8 @@ OpenGL_Project_Template/
 2. **Add CMake to your system PATH:**
 
     Ensure that CMake is installed and added to your system PATH. You can download CMake from [cmake.org](https://cmake.org/download/).
+3. **Build GLFW**
+    
 ## Building the Project
 #### 1.Create a build directory and run CMake:
 ```sh
