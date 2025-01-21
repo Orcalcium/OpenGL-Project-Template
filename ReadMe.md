@@ -1,6 +1,7 @@
 # OpenGL Project Template
 
 This project is a template for learning OpenGL in a Windows environment. It includes a CMake configuration, GLAD for loading OpenGL functions, and GLFW for creating windows and handling input.
+The provided CMake configuration allows you to build the project using command line tools, making it easy to compile and run the project on Windows without opening Visual Studio.
 
 ## Project Structure
 OpenGL_Project_Template/  
