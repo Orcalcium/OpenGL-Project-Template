@@ -24,7 +24,7 @@ OpenGL_Project_Template/
 - CMake 3.10 or higher
 - A C++ compiler (e.g., MSVC, GCC)
 - Git (optional, for cloning repositories)
-- Visual Studio or MinGW (for building GLFW)
+- Visual Studio or MinGW (for CMake to build the project and GLFW)
 
 ## Setup
 
