@@ -42,24 +42,24 @@ OpenGL_Project_Template/
     cmake --version
     ```
     in terminal to check whether cmake is correctly installed
-3. **update submodule**
+3. **Update submodule**
 
     ```sh
     git submodule init
     git submodule update
     ```
+4. **Build GLFW**
+    ```sh
+    # in project's root directory
+    cd .\include\GLFW\build
+    cmake ..\source\glfw\
+    cmake --build . --config Release
+    cmake --install . --prefix ../install
+    cd ..\..\..
+    ```
     
-## Building the Project
-### 1.build GLFW
- ```sh
-# in project's root directory
-cd .\include\GLFW\build
-cmake ..\source\glfw\
-cmake --build . --config Release
-cmake --install . --prefix ../install
-cd ..\..\..
-```
-#### 2.run CMake:
+## Project Building
+#### 1.run CMake:
 ```sh
 # in project's root directory
 cmake .
