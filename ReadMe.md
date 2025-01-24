@@ -1,13 +1,13 @@
 # OpenGL Project Template
 
 This project is a corss-platform template for learning OpenGL in a Windows or Linux environment. It includes a CMake configuration, GLAD for loading OpenGL functions, and GLFW for creating windows and handling input.
-The provided CMake configuration allows you to build the project using command line tools, making it easy to compile and run the project on Windows without opening Visual Studio.
+The provided CMake configuration allows to build the project using command line tools, making it easy to compile and run the project on Windows without opening Visual Studio.
 
 ## Project Structure
 OpenGL_Project_Template/  
 ├── code/  
-│   └── main.cpp  #*write your code here*  
-├── Debug/  #*your compiled executable will be here*  
+│   └── main.cpp  #*write code here*  
+├── Debug/  #*compiled executable will be here*  
 ├── include/  
 │    ├── glad/  
 │    │    └── glad.c  
@@ -26,7 +26,7 @@ OpenGL_Project_Template/
 - Git (optional, for cloning repositories)
 - (On windows) Visual Studio or MinGW
 - (On linux) Wayland and X11
-    -you can refer to https://www.glfw.org/docs/latest/compile.html for further information
+    - refer to https://www.glfw.org/docs/latest/compile.html for further information
 
 ## Setup
 
@@ -36,10 +36,10 @@ OpenGL_Project_Template/
    git clone https://github.com/Orcalcium/OpenGL_Project_Template.git
    cd OpenGL_Project_Template
    ``` 
-2. **Add CMake to your system PATH:**
+2. **Add CMake to system PATH:**
 
-    Ensure that CMake is installed and added to your system PATH. You can download CMake from [cmake.org](https://cmake.org/download/).
-    you can enter
+    Ensure that CMake is installed and added to system PATH. download CMake from [cmake.org](https://cmake.org/download/).
+    enter
     ```sh
     cmake --version
     ```
@@ -72,7 +72,7 @@ cmake .
 cmake --build .
 ```
 #### 3.Running the project
-After building, you can run your exectuable by
+After building, run the exectuable by
 - on Windows
 ```sh
 ./Debug/OpenGLProject.exe
