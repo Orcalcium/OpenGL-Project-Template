@@ -1,23 +1,28 @@
 # OpenGL Project Template
 
-This project is a corss-platform template for learning OpenGL in a Windows or Linux environment. It includes a CMake configuration, GLAD for loading OpenGL functions, and GLFW for creating windows and handling input.
+This project is a corss-platform template for learning OpenGL in a Windows or Linux environment. It includes a CMake configuration, and
+1. GLAD for loading OpenGL functions
+2. GLFW for creating windows and handling input
+3. glm for mathematical calculation
+
 The provided CMake configuration allows to build the project using command line tools, making it easy to compile and run the project on Windows without opening Visual Studio.
 
 ## Project Structure
-OpenGL_Project_Template/  
+```
+OpenGL-Project-Template/  
 ├── code/  
 │   └── main.cpp  #*write code here*  
-├── Debug/  #*compiled executable will be here*  
 ├── include/  
 │    ├── glad/  
 │    │    └── glad.c  
 │    │    └── glad.h  
-│    ├── GLFW/  #*this directory contains the source code of GLFW using git module*  
+│    ├── GLFW/
+│    ├──glm
 │    └──KHR  
 ├── CMakeLists.txt  
 ├── license  
 └── README.md
-
+```
 
 ## Prerequisites
 
@@ -75,11 +80,11 @@ cmake --build .
 After building, run the exectuable by
 - on Windows
 ```sh
-./Debug/OpenGLProject.exe
+./Debug/Project.exe
 ```
 - on Linux
 ```sh
-./OpenGLProject
+./Project
 ```
 ## License
 
