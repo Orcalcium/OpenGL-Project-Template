@@ -1,5 +1,13 @@
+//header files from code directory
+#include "./fileloader/fileLoader.h"
+
+//glad and glfw header files
 #include "../include/glad/glad.h"
 #include "../include/GLFW/install/include/GLFW/glfw3.h"
+//glm header files
+#include "../include/glm/glm/glm.hpp"
+#include "../include/glm/glm/gtc/matrix_transform.hpp"
+#include "../include/glm/glm/gtc/type_ptr.hpp"
 
 #include <iostream>
 
@@ -25,7 +33,7 @@ int main()
 
     // glfw window creation
     // --------------------
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Project", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -53,7 +61,7 @@ int main()
 
         // render
         // ------
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor(0.8f, 0.8f, 0.8f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
