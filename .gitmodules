@@ -1,3 +1,6 @@
 [submodule "include/GLFW/source/glfw"]
 	path = include/GLFW/source/glfw
 	url = https://github.com/glfw/glfw
+[submodule "include/glm"]
+	path = include/glm
+	url = https://github.com/g-truc/glm.git
