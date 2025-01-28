@@ -80,11 +80,11 @@ cmake --build .
 After building, run the exectuable by
 - on Windows
 ```sh
-./Debug/Project.exe
+./Debug/project.exe
 ```
 - on Linux
 ```sh
-./Project
+./project
 ```
 ## License
 
