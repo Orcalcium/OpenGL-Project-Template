@@ -398,3 +398,19 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#vcxproj
+*.vcxproj
+*.vcxproj.filters
+
+#cmake files
+*.cmake
+CMakeCache.txt
+*.check_cache
+*.sln
+*.stamp
+*.stamp.list
+.vscode/
+CMakeFiles/
+include/GLFW/build
+include/GLFW/install
