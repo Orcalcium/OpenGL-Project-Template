@@ -14,6 +14,10 @@ set(GLFW_DIR "./include/GLFW/install/lib/cmake/glfw3")
 # Find the GLFW package 
 find_package(glfw3 REQUIRED PATHS ${GLFW_DIR})
 
+#set CMP0072 explicity to use modern OpenGL(GLVND) implementation
+cmake_policy(SET CMP0072 NEW)
+set(OpenGL_GL_PREFERENCE "GLVND")
+
 # Find the OpenGL package
 find_package(OpenGL REQUIRED)
 
