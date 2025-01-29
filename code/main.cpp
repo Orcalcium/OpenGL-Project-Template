@@ -1,6 +1,3 @@
-//header files from code directory
-#include "./fileloader/fileLoader.h"
-
 //glad and glfw header files
 #include "../include/glad/glad.h"
 #include "../include/GLFW/install/include/GLFW/glfw3.h"
