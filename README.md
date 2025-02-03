@@ -30,32 +30,36 @@ OpenGL-Project-Template/
 - A C++ compiler (e.g., MSVC, GCC)
 - Git (optional, for cloning repositories)
 - (On windows) Visual Studio or MinGW
-- (On linux) Wayland and X11
+- (On linux) Wayland, X11
     - refer to https://www.glfw.org/docs/latest/compile.html for further information
 
 ## Setup
 
-1. **Clone the repository:**
+1. **Create your new repository by this template:**
 
+    ![Use this template](usethistemplate.png)
+2. **Clone the repository:** 
+
+    ***replace the address with your own repository***
    ```sh
    git clone https://github.com/Orcalcium/OpenGL_Project_Template.git
    cd OpenGL_Project_Template
    ``` 
-2. **Add CMake to system PATH:**
+3. **Add CMake to system PATH:**
 
     Ensure that CMake is installed and added to system PATH. download CMake from [cmake.org](https://cmake.org/download/).
-    enter
+    Enter
     ```sh
     cmake --version
     ```
     in terminal to check whether cmake is correctly installed
-3. **Update submodule**
+4. **Update submodule**
 
     ```sh
     git submodule init
     git submodule update
     ```
-4. **Build GLFW**
+5. **Build GLFW**
     ```sh
     # in project's root directory
     cd ./include/GLFW/build
