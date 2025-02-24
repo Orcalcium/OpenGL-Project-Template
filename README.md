@@ -4,6 +4,7 @@ This project is a corss-platform template for learning OpenGL in a Windows or Li
 1. GLAD for loading OpenGL functions
 2. GLFW for creating windows and handling input
 3. glm for mathematical calculation
+4. imgui for graphical interface
 
 The provided CMake configuration allows to build the project using command line tools, making it easy to compile and run the project on Windows without opening Visual Studio.
 
@@ -17,8 +18,9 @@ OpenGL-Project-Template/
 │    │    └── glad.c  
 │    │    └── glad.h  
 │    ├── GLFW/
-│    ├──glm
-│    └──KHR  
+│    ├── glm
+│    ├── imgui
+│    └── KHR  
 ├── CMakeLists.txt  
 ├── license  
 └── README.md
