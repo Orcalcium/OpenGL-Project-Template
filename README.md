@@ -30,7 +30,7 @@ OpenGL-Project-Template/
 
 - CMake 3.10 or higher
 - A C++ compiler (e.g., MSVC, GCC)
-- Git (optional, for cloning repositories)
+- Git
 - (On windows) Visual Studio or MinGW
 - (On linux) Wayland, X11
     - refer to https://www.glfw.org/docs/latest/compile.html for further information
